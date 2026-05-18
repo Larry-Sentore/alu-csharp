@@ -2,6 +2,6 @@
     if (i != 99){
         Console.Write($"{i:D2}, ");
     } else {
-        Console.Write($"{i:D2}");
+        Console.WriteLine($"{i:D2}");
     }
 }
