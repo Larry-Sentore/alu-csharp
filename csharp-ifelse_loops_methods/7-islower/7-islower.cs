@@ -9,10 +9,11 @@ class Program
 
         for (i = 0; i < letters.Length; i++)
         {
-            if(Character.IsLower(letters[i]))
+            if(letters[i] >= 'a' && letters[i] <= 'z')
                 Console.WriteLine("{0} is lowercase", letters[i]);
             else
                 Console.WriteLine("{0} is uppercase", letters[i]);
         }
     }
+
 }
