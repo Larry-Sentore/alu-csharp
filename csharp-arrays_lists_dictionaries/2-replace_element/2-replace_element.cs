@@ -1,4 +1,4 @@
-﻿Using System;
+﻿using System;
 
 class Array
 {
@@ -7,11 +7,10 @@ class Array
     {
         if (index < 0 || index >= array.Length)
         {
-            return -1;
-        
-        }else{
-       
-            Console.WriteLine(array);
+            return array;
+        }
+        else
+        {
             array[index] = n;
             return array;
         }
