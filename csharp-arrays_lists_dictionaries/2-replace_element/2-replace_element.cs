@@ -8,6 +8,7 @@ class Array
         if (index < 0 || index >= array.Length)
         {
             return -1;
+        
         }else{
        
             Console.WriteLine(array);
