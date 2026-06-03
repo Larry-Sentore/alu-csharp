@@ -17,8 +17,7 @@ class Array
             Console.Write($"{i} ");
         }
  
-        Console.WriteLine($"Array Lenght: {size}");
- 
+        Console.WriteLine();
         return arr;
     }
 }
