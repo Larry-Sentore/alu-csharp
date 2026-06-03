@@ -1,9 +1,12 @@
-﻿Using System;
+﻿using System;
 
 class Array
 {
     public static void Reverse(int[] array)
     {
+        if (array == null)
+            return;
+
         int i;
 
         for (i = array.Length - 1; i >= 0; i--)
