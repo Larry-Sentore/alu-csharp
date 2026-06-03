@@ -12,7 +12,6 @@ class Array
         }else
         {
             Console.WriteLine("Element at index {0} is {1}", index, array[index]);
-            return array[index];
         }
     }
 
