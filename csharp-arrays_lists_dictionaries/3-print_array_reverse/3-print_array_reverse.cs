@@ -5,7 +5,7 @@ class Array
     public static void Reverse(int[] array)
     {
         if (array == null)
-            return;
+            return -1;
 
         int i;
 
