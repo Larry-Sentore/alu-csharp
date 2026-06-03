@@ -11,12 +11,14 @@ class Array
         }
  
         int[] arr = new int[size];
- 
+
         for (int i = 0; i < size; i++)
         {
-            Console.Write($"{i} ");
+            Console.Write(i);
+            if (i < size - 1)
+                Console.Write(" ");
         }
- 
+
         Console.WriteLine();
         return arr;
     }
