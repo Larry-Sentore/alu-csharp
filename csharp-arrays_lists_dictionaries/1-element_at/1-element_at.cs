@@ -1,4 +1,4 @@
-﻿Using System;
+﻿using System;
 
 class Array
 {
@@ -11,7 +11,7 @@ class Array
             return -1;
         }else
         {
-            Console.WriteLine("Element at index {0} is: {1}", index, array[index]);
+            Console.WriteLine("Element at index {0} is {1}", index, array[index]);
             return array[index];
         }
     }

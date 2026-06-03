@@ -1,0 +1,4 @@
+C:\Users\pc\.vscode\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\net7.0\1-element_at.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\.vscode\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\net7.0\1-element_at.AssemblyInfoInputs.cache
+C:\Users\pc\.vscode\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\net7.0\1-element_at.AssemblyInfo.cs
+C:\Users\pc\.vscode\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\net7.0\1-element_at.csproj.CoreCompileInputs.cache
