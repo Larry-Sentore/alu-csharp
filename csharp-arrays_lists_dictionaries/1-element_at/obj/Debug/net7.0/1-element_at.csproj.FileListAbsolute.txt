@@ -2,3 +2,13 @@ C:\Users\pc\.vscode\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj
 C:\Users\pc\.vscode\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\net7.0\1-element_at.AssemblyInfoInputs.cache
 C:\Users\pc\.vscode\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\net7.0\1-element_at.AssemblyInfo.cs
 C:\Users\pc\.vscode\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\net7.0\1-element_at.csproj.CoreCompileInputs.cache
+C:\Users\pc\.vscode\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\bin\Debug\net7.0\1-element_at.exe
+C:\Users\pc\.vscode\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\bin\Debug\net7.0\1-element_at.deps.json
+C:\Users\pc\.vscode\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\bin\Debug\net7.0\1-element_at.runtimeconfig.json
+C:\Users\pc\.vscode\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\bin\Debug\net7.0\1-element_at.dll
+C:\Users\pc\.vscode\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\bin\Debug\net7.0\1-element_at.pdb
+C:\Users\pc\.vscode\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\net7.0\1-element_at.dll
+C:\Users\pc\.vscode\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\net7.0\refint\1-element_at.dll
+C:\Users\pc\.vscode\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\net7.0\1-element_at.pdb
+C:\Users\pc\.vscode\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\net7.0\1-element_at.genruntimeconfig.cache
+C:\Users\pc\.vscode\alu-csharp\csharp-arrays_lists_dictionaries\1-element_at\obj\Debug\net7.0\ref\1-element_at.dll
