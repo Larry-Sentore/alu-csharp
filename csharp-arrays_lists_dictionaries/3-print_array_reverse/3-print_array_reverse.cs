@@ -8,7 +8,7 @@ public class Array
         if (array == null)
         {
             Console.WriteLine(); 
-            return;
+            return -1;
         }
 
         
