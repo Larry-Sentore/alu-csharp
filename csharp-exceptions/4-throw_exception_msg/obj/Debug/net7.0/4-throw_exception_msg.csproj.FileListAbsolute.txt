@@ -1,0 +1,14 @@
+C:\Users\pc\alu-csharp\4-throw_exception_msg\bin\Debug\net7.0\4-throw_exception_msg.exe
+C:\Users\pc\alu-csharp\4-throw_exception_msg\bin\Debug\net7.0\4-throw_exception_msg.deps.json
+C:\Users\pc\alu-csharp\4-throw_exception_msg\bin\Debug\net7.0\4-throw_exception_msg.runtimeconfig.json
+C:\Users\pc\alu-csharp\4-throw_exception_msg\bin\Debug\net7.0\4-throw_exception_msg.dll
+C:\Users\pc\alu-csharp\4-throw_exception_msg\bin\Debug\net7.0\4-throw_exception_msg.pdb
+C:\Users\pc\alu-csharp\4-throw_exception_msg\obj\Debug\net7.0\4-throw_exception_msg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\alu-csharp\4-throw_exception_msg\obj\Debug\net7.0\4-throw_exception_msg.AssemblyInfoInputs.cache
+C:\Users\pc\alu-csharp\4-throw_exception_msg\obj\Debug\net7.0\4-throw_exception_msg.AssemblyInfo.cs
+C:\Users\pc\alu-csharp\4-throw_exception_msg\obj\Debug\net7.0\4-throw_exception_msg.csproj.CoreCompileInputs.cache
+C:\Users\pc\alu-csharp\4-throw_exception_msg\obj\Debug\net7.0\4-throw_exception_msg.dll
+C:\Users\pc\alu-csharp\4-throw_exception_msg\obj\Debug\net7.0\refint\4-throw_exception_msg.dll
+C:\Users\pc\alu-csharp\4-throw_exception_msg\obj\Debug\net7.0\4-throw_exception_msg.pdb
+C:\Users\pc\alu-csharp\4-throw_exception_msg\obj\Debug\net7.0\4-throw_exception_msg.genruntimeconfig.cache
+C:\Users\pc\alu-csharp\4-throw_exception_msg\obj\Debug\net7.0\ref\4-throw_exception_msg.dll
