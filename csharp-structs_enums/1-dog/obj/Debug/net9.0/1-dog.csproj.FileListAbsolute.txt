@@ -1,0 +1,15 @@
+C:\Users\pc\alu-csharp\csharp-structs_enums\1-dog\obj\Debug\net9.0\1-dog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\alu-csharp\csharp-structs_enums\1-dog\obj\Debug\net9.0\1-dog.AssemblyInfoInputs.cache
+C:\Users\pc\alu-csharp\csharp-structs_enums\1-dog\obj\Debug\net9.0\1-dog.AssemblyInfo.cs
+C:\Users\pc\alu-csharp\csharp-structs_enums\1-dog\obj\Debug\net9.0\1-dog.csproj.CoreCompileInputs.cache
+C:\Users\pc\alu-csharp\csharp-structs_enums\1-dog\obj\Debug\net9.0\1-dog.sourcelink.json
+C:\Users\pc\alu-csharp\csharp-structs_enums\1-dog\bin\Debug\net9.0\1-dog.exe
+C:\Users\pc\alu-csharp\csharp-structs_enums\1-dog\bin\Debug\net9.0\1-dog.deps.json
+C:\Users\pc\alu-csharp\csharp-structs_enums\1-dog\bin\Debug\net9.0\1-dog.runtimeconfig.json
+C:\Users\pc\alu-csharp\csharp-structs_enums\1-dog\bin\Debug\net9.0\1-dog.dll
+C:\Users\pc\alu-csharp\csharp-structs_enums\1-dog\bin\Debug\net9.0\1-dog.pdb
+C:\Users\pc\alu-csharp\csharp-structs_enums\1-dog\obj\Debug\net9.0\1-dog.dll
+C:\Users\pc\alu-csharp\csharp-structs_enums\1-dog\obj\Debug\net9.0\refint\1-dog.dll
+C:\Users\pc\alu-csharp\csharp-structs_enums\1-dog\obj\Debug\net9.0\1-dog.pdb
+C:\Users\pc\alu-csharp\csharp-structs_enums\1-dog\obj\Debug\net9.0\1-dog.genruntimeconfig.cache
+C:\Users\pc\alu-csharp\csharp-structs_enums\1-dog\obj\Debug\net9.0\ref\1-dog.dll
