@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>5-enemy</name>
+    </assembly>
+    <members>
+        <member name="T:Enemies.Zombie">
+            <summary>
+            Represents a zombie enemy.
+            </summary>
+        </member>
+        <member name="F:Enemies.Zombie.health">
+            <summary>
+            The health of the zombie (private field).
+            </summary>
+        </member>
+        <member name="F:Enemies.Zombie.name">
+            <summary>
+            The name of the zombie (private field).
+            </summary>
+        </member>
+        <member name="P:Enemies.Zombie.Name">
+            <summary>
+            Gets or sets the name of the zombie.
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Enemies.Zombie"/> class with default health set to 0.
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Enemies.Zombie"/> class with a specified health value.
+            </summary>
+            <param name="value">The initial health value of the zombie. Must be >= 0.</param>
+            <exception cref="T:System.ArgumentException">Thrown when value is less than 0.</exception>
+        </member>
+        <member name="M:Enemies.Zombie.GetHealth">
+            <summary>
+            Gets the health value of the zombie.
+            </summary>
+            <returns>The zombie's health.</returns>
+        </member>
+        <member name="M:Enemies.Zombie.ToString">
+            <summary>
+            Get the health of the zombie.
+            </summary>
+            <returns>Returns the health value of the zombie.</returns>
+        </member>
+        <member name="T:Program">
+            <summary>
+            Entry point of the program.
+            </summary>
+        </member>
+        <member name="M:Program.Main(System.String[])">
+            <summary>
+            Main method that creates Zombie objects and displays their attributes.
+            </summary>
+        </member>
+    </members>
+</doc>

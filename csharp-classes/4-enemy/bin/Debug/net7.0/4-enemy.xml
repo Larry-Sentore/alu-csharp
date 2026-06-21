@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>4-enemy</name>
+    </assembly>
+    <members>
+        <member name="T:Enemies.Zombie">
+            <summary>
+            ...
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor">
+            <summary>
+            ...
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor(System.Int32)">
+            <summary>
+            ...
+            </summary>
+        </member>
+        <member name="P:Enemies.Zombie.Name">
+            <summary>
+            ..
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.GetHealth">
+            <summary>
+            .
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.ToString">
+            <summary>
+            D...
+            </summary>
+        </member>
+    </members>
+</doc>
