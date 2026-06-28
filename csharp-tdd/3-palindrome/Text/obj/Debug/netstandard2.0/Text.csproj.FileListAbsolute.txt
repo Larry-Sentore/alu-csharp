@@ -1,0 +1,13 @@
+c:\Users\pc\.vscode\alu-csharp\csharp-tdd\3-palindrome\Text\bin\Debug\netstandard2.0\Text.deps.json
+c:\Users\pc\.vscode\alu-csharp\csharp-tdd\3-palindrome\Text\bin\Debug\netstandard2.0\Text.dll
+c:\Users\pc\.vscode\alu-csharp\csharp-tdd\3-palindrome\Text\bin\Debug\netstandard2.0\Text.pdb
+c:\Users\pc\.vscode\alu-csharp\csharp-tdd\3-palindrome\Text\bin\Debug\netstandard2.0\Text.xml
+c:\Users\pc\.vscode\alu-csharp\csharp-tdd\3-palindrome\Text\obj\Debug\netstandard2.0\Text.csproj.AssemblyReference.cache
+c:\Users\pc\.vscode\alu-csharp\csharp-tdd\3-palindrome\Text\obj\Debug\netstandard2.0\Text.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\pc\.vscode\alu-csharp\csharp-tdd\3-palindrome\Text\obj\Debug\netstandard2.0\Text.AssemblyInfoInputs.cache
+c:\Users\pc\.vscode\alu-csharp\csharp-tdd\3-palindrome\Text\obj\Debug\netstandard2.0\Text.AssemblyInfo.cs
+c:\Users\pc\.vscode\alu-csharp\csharp-tdd\3-palindrome\Text\obj\Debug\netstandard2.0\Text.csproj.CoreCompileInputs.cache
+c:\Users\pc\.vscode\alu-csharp\csharp-tdd\3-palindrome\Text\obj\Debug\netstandard2.0\Text.sourcelink.json
+c:\Users\pc\.vscode\alu-csharp\csharp-tdd\3-palindrome\Text\obj\Debug\netstandard2.0\Text.dll
+c:\Users\pc\.vscode\alu-csharp\csharp-tdd\3-palindrome\Text\obj\Debug\netstandard2.0\Text.xml
+c:\Users\pc\.vscode\alu-csharp\csharp-tdd\3-palindrome\Text\obj\Debug\netstandard2.0\Text.pdb

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "pZysa7+fKAvy3hqJvxOQVog96yJpHwPlfTzZ8sPrVaWab/sS66WkqfUadqgyXO8lOXP7VUtsZ3EkQAAgkhQq2A==",
+  "dgSpecHash": "7qRoPMw3spE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Documents\\alu-csharp\\csharp-tdd\\5-camelcase\\Text\\Text.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "c:\\Users\\pc\\.vscode\\alu-csharp\\csharp-tdd\\5-camelcase\\Text\\Text.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

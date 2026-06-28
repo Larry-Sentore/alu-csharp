@@ -1,10 +1,12 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace Text
 {
+    /// <summary> Provides string utility methods </summary>
     public class Str
     {
+        /// <summary> Returns the index of the first non-repeating character in a string, or -1 if none exists </summary>
         public static int UniqueChar(string s)
         {
             if (string.IsNullOrEmpty(s))
@@ -12,7 +14,6 @@ namespace Text
 
             Dictionary<char, int> charCount = new Dictionary<char, int>();
 
-            // First pass: count character occurrences
             foreach (char c in s)
             {
                 if (charCount.ContainsKey(c))
@@ -21,7 +22,6 @@ namespace Text
                     charCount[c] = 1;
             }
 
-            // Second pass: find the first character with a count of 1
             for (int i = 0; i < s.Length; i++)
             {
                 if (charCount[s[i]] == 1)

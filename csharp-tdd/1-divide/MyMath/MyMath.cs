@@ -1,9 +1,11 @@
-﻿using System;
+using System;
 
 namespace MyMath
 {
+    /// <summary> Provides matrix arithmetic operations </summary>
     public class Matrix
     {
+        /// <summary> Divides all elements of a matrix by the given number </summary>
         public static int[,] Divide(int[,] matrix, int num)
         {
             if (matrix == null)

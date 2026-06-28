@@ -1,10 +1,12 @@
-﻿using System;
+using System;
 using System.Text;
 
 namespace Text
 {
+    /// <summary> Provides string utility methods </summary>
     public class Str
     {
+        /// <summary> Returns true if the input string is a palindrome, ignoring case and non-alphanumeric characters </summary>
         public static bool IsPalindrome(string s)
         {
             if (s == null)

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "EHTocPvzgAwkB75YGG2hKwy9fWIJfGgH4HMBZjBdQW5pvR+0P00qf92mMpS1cZAMG31x5XrYPTNWRuhHWL2Quw==",
+  "dgSpecHash": "Ts6dMYe3RnU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Documents\\alu-csharp\\csharp-tdd\\0-add\\MyMath\\MyMath.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "c:\\Users\\pc\\.vscode\\alu-csharp\\csharp-tdd\\0-add\\MyMath\\MyMath.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
