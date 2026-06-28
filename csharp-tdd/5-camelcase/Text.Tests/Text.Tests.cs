@@ -1,23 +1,50 @@
-/// <summary> Test cases for the CamelCase method in the Str class </summary>
-using Xunit;
+using NUnit.Framework;
 using Text;
 
 namespace Text.Tests
 {
-    /// <summary> Unit tests for the Str.CamelCase method </summary>
     public class StrTests
     {
-        /// <summary> Theory tests covering various camelCase strings and their expected word counts </summary>
-        [Theory]
-        [InlineData("helloWorld", 2)]
-        [InlineData("thisIsCamelCase", 4)]
-        [InlineData("single", 1)]
-        [InlineData("", 0)]
-        [InlineData("alreadyLower", 2)]
-        public void CamelCase_TestCases(string input, int expected)
+        [Test]
+        public void CamelCase_EmptyString_ReturnsZero()
         {
-            int result = Str.CamelCase(input);
-            Assert.Equal(expected, result);
+            Assert.AreEqual(0, Str.CamelCase(""));
+        }
+
+        [Test]
+        public void CamelCase_NullString_ReturnsZero()
+        {
+            Assert.AreEqual(0, Str.CamelCase(null));
+        }
+
+        [Test]
+        public void CamelCase_SingleLowercaseWord_ReturnsOne()
+        {
+            Assert.AreEqual(1, Str.CamelCase("hello"));
+        }
+
+        [Test]
+        public void CamelCase_TwoWords_ReturnsTwo()
+        {
+            Assert.AreEqual(2, Str.CamelCase("helloWorld"));
+        }
+
+        [Test]
+        public void CamelCase_FiveWords_ReturnsFive()
+        {
+            Assert.AreEqual(5, Str.CamelCase("saveChangesInTheEditor"));
+        }
+
+        [Test]
+        public void CamelCase_SingleLetter_ReturnsOne()
+        {
+            Assert.AreEqual(1, Str.CamelCase("a"));
+        }
+
+        [Test]
+        public void CamelCase_ConsecutiveCapitals_CountsEachAsAWord()
+        {
+            Assert.AreEqual(3, Str.CamelCase("getHTTPResponse"));
         }
     }
 }

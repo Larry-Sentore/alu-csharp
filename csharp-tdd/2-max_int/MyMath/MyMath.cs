@@ -3,23 +3,29 @@ using System.Collections.Generic;
 
 namespace MyMath
 {
-    /// <summary> Provides integer operations </summary>
+    /// <summary>
+    /// Provides basic mathematical operations.
+    /// </summary>
     public class Operations
     {
-        /// <summary> Returns the maximum integer from a list, or 0 if the list is null or empty </summary>
+        /// <summary>
+        /// Returns the maximum integer contained in <paramref name="nums"/>.
+        /// </summary>
+        /// <param name="nums">The list of integers to scan.</param>
+        /// <returns>
+        /// The largest integer in <paramref name="nums"/>, or <c>0</c> if the list is empty.
+        /// </returns>
         public static int Max(List<int> nums)
         {
             if (nums == null || nums.Count == 0)
                 return 0;
 
             int max = nums[0];
-
-            foreach (int num in nums)
+            for (int i = 1; i < nums.Count; i++)
             {
-                if (num > max)
-                    max = num;
+                if (nums[i] > max)
+                    max = nums[i];
             }
-
             return max;
         }
     }

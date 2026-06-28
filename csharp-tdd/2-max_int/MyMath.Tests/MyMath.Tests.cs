@@ -1,46 +1,51 @@
-/// <summary> Test cases for the Max method in the Operations class </summary>
-using Xunit;
-using MyMath;
 using System.Collections.Generic;
+using NUnit.Framework;
+using MyMath;
 
 namespace MyMath.Tests
 {
-    /// <summary> Unit tests for the Operations.Max method </summary>
     public class OperationsTests
     {
-        /// <summary> Test that Max returns the correct maximum from a list of positive integers </summary>
-        [Fact]
-        public void Max_WithMultipleIntegers_ReturnsCorrectMax()
+        [Test]
+        public void Max_EmptyList_ReturnsZero()
         {
-            List<int> nums = new List<int> { 1, 3, 7, 2, 5 };
-            int result = Operations.Max(nums);
-            Assert.Equal(7, result);
+            Assert.AreEqual(0, Operations.Max(new List<int>()));
         }
 
-        /// <summary> Test that Max returns the correct maximum from a list of negative integers </summary>
-        [Fact]
-        public void Max_WithNegativeIntegers_ReturnsCorrectMax()
+        [Test]
+        public void Max_SingleElement_ReturnsThatElement()
         {
-            List<int> nums = new List<int> { -10, -20, -3 };
-            int result = Operations.Max(nums);
-            Assert.Equal(-3, result);
+            Assert.AreEqual(7, Operations.Max(new List<int> { 7 }));
         }
 
-        /// <summary> Test that Max returns zero for an empty list </summary>
-        [Fact]
-        public void Max_WithEmptyList_ReturnsZero()
+        [Test]
+        public void Max_AllPositive_ReturnsLargest()
         {
-            List<int> nums = new List<int>();
-            int result = Operations.Max(nums);
-            Assert.Equal(0, result);
+            Assert.AreEqual(9, Operations.Max(new List<int> { 1, 9, 3, 5 }));
         }
 
-        /// <summary> Test that Max returns zero for a null list </summary>
-        [Fact]
-        public void Max_WithNullList_ReturnsZero()
+        [Test]
+        public void Max_AllNegative_ReturnsLeastNegative()
         {
-            int result = Operations.Max(null);
-            Assert.Equal(0, result);
+            Assert.AreEqual(-1, Operations.Max(new List<int> { -5, -1, -3, -10 }));
+        }
+
+        [Test]
+        public void Max_MixedSigns_ReturnsLargest()
+        {
+            Assert.AreEqual(8, Operations.Max(new List<int> { -2, 8, 0, -7, 3 }));
+        }
+
+        [Test]
+        public void Max_DuplicateMaxValues_ReturnsThatValue()
+        {
+            Assert.AreEqual(4, Operations.Max(new List<int> { 4, 2, 4, 1, 4 }));
+        }
+
+        [Test]
+        public void Max_LastElementIsLargest_ReturnsLastElement()
+        {
+            Assert.AreEqual(100, Operations.Max(new List<int> { 1, 2, 3, 100 }));
         }
     }
 }

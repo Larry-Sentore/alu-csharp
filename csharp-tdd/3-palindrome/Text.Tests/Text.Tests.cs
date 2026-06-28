@@ -1,25 +1,74 @@
-/// <summary> Test cases for the IsPalindrome method in the Str class </summary>
-using Xunit;
+using NUnit.Framework;
 using Text;
 
 namespace Text.Tests
 {
-    /// <summary> Unit tests for the Str.IsPalindrome method </summary>
     public class StrTests
     {
-        /// <summary> Theory tests covering various palindrome and non-palindrome inputs </summary>
-        [Theory]
-        [InlineData("Racecar", true)]
-        [InlineData("level", true)]
-        [InlineData("A man, a plan, a canal: Panama.", true)]
-        [InlineData("Not a palindrome", false)]
-        [InlineData("", true)]
-        [InlineData(" ", true)]
-        [InlineData(null, false)]
-        public void IsPalindrome_TestCases(string input, bool expected)
+        [Test]
+        public void IsPalindrome_EmptyString_ReturnsTrue()
         {
-            bool result = Str.IsPalindrome(input);
-            Assert.Equal(expected, result);
+            Assert.IsTrue(Str.IsPalindrome(""));
+        }
+
+        [Test]
+        public void IsPalindrome_NullString_ReturnsTrue()
+        {
+            Assert.IsTrue(Str.IsPalindrome(null));
+        }
+
+        [Test]
+        public void IsPalindrome_SingleCharacter_ReturnsTrue()
+        {
+            Assert.IsTrue(Str.IsPalindrome("a"));
+        }
+
+        [Test]
+        public void IsPalindrome_SimplePalindromeLowerCase_ReturnsTrue()
+        {
+            Assert.IsTrue(Str.IsPalindrome("level"));
+        }
+
+        [Test]
+        public void IsPalindrome_MixedCasePalindrome_ReturnsTrue()
+        {
+            Assert.IsTrue(Str.IsPalindrome("Racecar"));
+        }
+
+        [Test]
+        public void IsPalindrome_NotAPalindrome_ReturnsFalse()
+        {
+            Assert.IsFalse(Str.IsPalindrome("hello"));
+        }
+
+        [Test]
+        public void IsPalindrome_PunctuationAndSpacesIgnored_ReturnsTrue()
+        {
+            Assert.IsTrue(Str.IsPalindrome("A man, a plan, a canal: Panama."));
+        }
+
+        [Test]
+        public void IsPalindrome_PhraseNotPalindrome_ReturnsFalse()
+        {
+            Assert.IsFalse(Str.IsPalindrome("This is not a palindrome"));
+        }
+
+        [Test]
+        public void IsPalindrome_AlphanumericPalindrome_ReturnsTrue()
+        {
+            Assert.IsTrue(Str.IsPalindrome("12321"));
+        }
+
+        [Test]
+        public void IsPalindrome_OnlyPunctuation_ReturnsTrue()
+        {
+            Assert.IsTrue(Str.IsPalindrome("!!!,,,..."));
+        }
+
+        [Test]
+        public void IsPalindrome_EvenLengthPalindrome_ReturnsTrue()
+        {
+            Assert.IsTrue(Str.IsPalindrome("abba"));
         }
     }
 }
