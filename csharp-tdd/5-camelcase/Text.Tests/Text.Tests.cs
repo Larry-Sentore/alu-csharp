@@ -1,10 +1,13 @@
-﻿using Xunit;
+/// <summary> Test cases for the CamelCase method in the Str class </summary>
+using Xunit;
 using Text;
 
 namespace Text.Tests
 {
+    /// <summary> Unit tests for the Str.CamelCase method </summary>
     public class StrTests
     {
+        /// <summary> Theory tests covering various camelCase strings and their expected word counts </summary>
         [Theory]
         [InlineData("helloWorld", 2)]
         [InlineData("thisIsCamelCase", 4)]
