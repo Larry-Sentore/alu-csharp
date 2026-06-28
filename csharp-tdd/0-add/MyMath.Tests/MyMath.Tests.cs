@@ -16,6 +16,7 @@ namespace MyMath.Tests
             Console.WriteLine("All unit tests pass");
         }
 
+        // <summary> Test for adding two positive integers </summary>
         public static void TestPositiveIntegers()
         {
             int result = Operations.Add(5, 3);
@@ -25,6 +26,7 @@ namespace MyMath.Tests
                 throw new Exception($"Test failed: expected 8, got {result}");
         }
 
+        // <summary> Test for adding two negative integers </summary>
         public static void TestNegativeIntegers()
         {
             int result = Operations.Add(-5, -3);
@@ -34,6 +36,7 @@ namespace MyMath.Tests
                 throw new Exception($"Test failed: expected -8, got {result}");
         }
 
+        // <summary> Test for adding a positive and a negative integer </summary>
         public static void TestPositiveAndNegative()
         {
             int result = Operations.Add(-10, 15);
@@ -43,6 +46,7 @@ namespace MyMath.Tests
                 throw new Exception($"Test failed: expected 5, got {result}");
         }
 
+        // <summary> Test for adding zero to a number </summary>
         public static void TestAddZero()
         {
             int result = Operations.Add(0, 42);
@@ -52,6 +56,7 @@ namespace MyMath.Tests
                 throw new Exception($"Test failed: expected 42, got {result}");
         }
 
+        // <summary> Test for adding zero to zero </summary>
         public static void TestZeroPlusZero()
         {
             int result = Operations.Add(0, 0);
@@ -61,6 +66,7 @@ namespace MyMath.Tests
                 throw new Exception($"Test failed: expected 0, got {result}");
         }
 
+        // <summary> Test for regular addition </summary>
         public static void TestRegularAddition()
         {
             int result = Operations.Add(10, 20);
