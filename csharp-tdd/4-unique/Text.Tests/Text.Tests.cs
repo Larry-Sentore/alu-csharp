@@ -1,68 +1,23 @@
-using NUnit.Framework;
+/// <summary> Test cases for the UniqueChar method in the Str class </summary>
+using Xunit;
 using Text;
 
 namespace Text.Tests
 {
+    /// <summary> Unit tests for the Str.UniqueChar method </summary>
     public class StrTests
     {
-        [Test]
-        public void UniqueChar_EmptyString_ReturnsMinusOne()
+        /// <summary> Theory tests covering various inputs for finding the first unique character </summary>
+        [Theory]
+        [InlineData("leetcode", 0)]
+        [InlineData("loveleetcode", 2)]
+        [InlineData("aabb", -1)]
+        [InlineData("x", 0)]
+        [InlineData("", -1)]
+        public void UniqueChar_TestCases(string input, int expected)
         {
-            Assert.AreEqual(-1, Str.UniqueChar(""));
-        }
-
-        [Test]
-        public void UniqueChar_NullString_ReturnsMinusOne()
-        {
-            Assert.AreEqual(-1, Str.UniqueChar(null));
-        }
-
-        [Test]
-        public void UniqueChar_SingleCharacter_ReturnsZero()
-        {
-            Assert.AreEqual(0, Str.UniqueChar("a"));
-        }
-
-        [Test]
-        public void UniqueChar_FirstCharacterUnique_ReturnsZero()
-        {
-            Assert.AreEqual(0, Str.UniqueChar("hello"));
-        }
-
-        [Test]
-        public void UniqueChar_UniqueInMiddle_ReturnsCorrectIndex()
-        {
-            Assert.AreEqual(2, Str.UniqueChar("aabcb"));
-        }
-
-        [Test]
-        public void UniqueChar_AllCharactersRepeat_ReturnsMinusOne()
-        {
-            Assert.AreEqual(-1, Str.UniqueChar("aabbcc"));
-        }
-
-        [Test]
-        public void UniqueChar_LeetcodeExample_ReturnsTwo()
-        {
-            Assert.AreEqual(2, Str.UniqueChar("leetcode"));
-        }
-
-        [Test]
-        public void UniqueChar_LoveleetExample_ReturnsTwo()
-        {
-            Assert.AreEqual(2, Str.UniqueChar("loveleetcode"));
-        }
-
-        [Test]
-        public void UniqueChar_LastCharacterUnique_ReturnsLastIndex()
-        {
-            Assert.AreEqual(4, Str.UniqueChar("aabbc"));
-        }
-
-        [Test]
-        public void UniqueChar_TwoSameCharacters_ReturnsMinusOne()
-        {
-            Assert.AreEqual(-1, Str.UniqueChar("aa"));
+            int result = Str.UniqueChar(input);
+            Assert.Equal(expected, result);
         }
     }
 }

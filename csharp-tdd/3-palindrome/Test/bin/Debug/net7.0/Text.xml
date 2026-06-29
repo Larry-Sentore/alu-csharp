@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Text</name>
+    </assembly>
+    <members>
+        <member name="T:Text.Str">
+            <summary> Provides string utility methods </summary>
+        </member>
+        <member name="M:Text.Str.IsPalindrome(System.String)">
+            <summary> Returns true if the input string is a palindrome, ignoring case and non-alphanumeric characters </summary>
+        </member>
+    </members>
+</doc>

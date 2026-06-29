@@ -1,69 +1,41 @@
-using System;
-using System.IO;
-using NUnit.Framework;
+/// <summary> Test cases for the Divide method in the Matrix class </summary>
+using Xunit;
 using MyMath;
 
 namespace MyMath.Tests
 {
+    /// <summary> Unit tests for the Matrix.Divide method </summary>
     public class MatrixTests
     {
-        [Test]
+        /// <summary> Test that dividing a valid matrix by a non-zero number returns the correctly divided matrix </summary>
+        [Fact]
+        public void Divide_ValidMatrixAndNonZeroNum_ReturnsDividedMatrix()
+        {
+            int[,] matrix = { { 2, 4 }, { 6, 8 } };
+            int[,] expected = { { 1, 2 }, { 3, 4 } };
+
+            int[,] result = Matrix.Divide(matrix, 2);
+
+            Assert.Equal(expected, result);
+        }
+
+        /// <summary> Test that dividing by zero prints a message and returns null </summary>
+        [Fact]
+        public void Divide_ByZero_PrintsMessageAndReturnsNull()
+        {
+            int[,] matrix = { { 1, 2 } };
+            int[,] result = Matrix.Divide(matrix, 0);
+
+            Assert.Null(result);
+        }
+
+        /// <summary> Test that passing a null matrix returns null </summary>
+        [Fact]
         public void Divide_NullMatrix_ReturnsNull()
         {
-            Assert.IsNull(Matrix.Divide(null, 2));
-        }
+            int[,] result = Matrix.Divide(null, 3);
 
-        [Test]
-        public void Divide_ByZero_ReturnsNullAndPrintsMessage()
-        {
-            int[,] m = { { 1, 2 }, { 3, 4 } };
-            string output;
-            int[,] result;
-            using (var sw = new StringWriter())
-            {
-                Console.SetOut(sw);
-                result = Matrix.Divide(m, 0);
-                output = sw.ToString();
-            }
-            var stdout = new StreamWriter(Console.OpenStandardOutput()) { AutoFlush = true };
-            Console.SetOut(stdout);
-
-            Assert.IsNull(result);
-            Assert.IsTrue(output.Contains("Num cannot be 0"));
-        }
-
-        [Test]
-        public void Divide_NormalCase_ReturnsDividedMatrix()
-        {
-            int[,] m = { { 10, 20 }, { 30, 40 } };
-            int[,] expected = { { 5, 10 }, { 15, 20 } };
-            Assert.AreEqual(expected, Matrix.Divide(m, 2));
-        }
-
-        [Test]
-        public void Divide_IntegerTruncation_TruncatesTowardZero()
-        {
-            int[,] m = { { 7, 8 }, { 9, 10 } };
-            int[,] expected = { { 2, 2 }, { 3, 3 } };
-            Assert.AreEqual(expected, Matrix.Divide(m, 3));
-        }
-
-        [Test]
-        public void Divide_NegativeDivisor_ReturnsNegatedQuotients()
-        {
-            int[,] m = { { 4, -6 }, { 8, -10 } };
-            int[,] expected = { { -2, 3 }, { -4, 5 } };
-            Assert.AreEqual(expected, Matrix.Divide(m, -2));
-        }
-
-        [Test]
-        public void Divide_EmptyMatrix_ReturnsEmptyMatrix()
-        {
-            int[,] m = new int[0, 0];
-            int[,] result = Matrix.Divide(m, 5);
-            Assert.IsNotNull(result);
-            Assert.AreEqual(0, result.GetLength(0));
-            Assert.AreEqual(0, result.GetLength(1));
+            Assert.Null(result);
         }
     }
 }

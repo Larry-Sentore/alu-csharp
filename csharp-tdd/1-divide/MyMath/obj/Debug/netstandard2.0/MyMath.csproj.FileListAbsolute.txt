@@ -1,0 +1,13 @@
+C:\Users\pc\.vscode\alu-csharp\csharp-tdd\1-divide\MyMath\bin\Debug\netstandard2.0\MyMath.deps.json
+C:\Users\pc\.vscode\alu-csharp\csharp-tdd\1-divide\MyMath\bin\Debug\netstandard2.0\MyMath.dll
+C:\Users\pc\.vscode\alu-csharp\csharp-tdd\1-divide\MyMath\bin\Debug\netstandard2.0\MyMath.pdb
+C:\Users\pc\.vscode\alu-csharp\csharp-tdd\1-divide\MyMath\bin\Debug\netstandard2.0\MyMath.xml
+C:\Users\pc\.vscode\alu-csharp\csharp-tdd\1-divide\MyMath\obj\Debug\netstandard2.0\MyMath.csproj.AssemblyReference.cache
+C:\Users\pc\.vscode\alu-csharp\csharp-tdd\1-divide\MyMath\obj\Debug\netstandard2.0\MyMath.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\.vscode\alu-csharp\csharp-tdd\1-divide\MyMath\obj\Debug\netstandard2.0\MyMath.AssemblyInfoInputs.cache
+C:\Users\pc\.vscode\alu-csharp\csharp-tdd\1-divide\MyMath\obj\Debug\netstandard2.0\MyMath.AssemblyInfo.cs
+C:\Users\pc\.vscode\alu-csharp\csharp-tdd\1-divide\MyMath\obj\Debug\netstandard2.0\MyMath.csproj.CoreCompileInputs.cache
+C:\Users\pc\.vscode\alu-csharp\csharp-tdd\1-divide\MyMath\obj\Debug\netstandard2.0\MyMath.sourcelink.json
+C:\Users\pc\.vscode\alu-csharp\csharp-tdd\1-divide\MyMath\obj\Debug\netstandard2.0\MyMath.dll
+C:\Users\pc\.vscode\alu-csharp\csharp-tdd\1-divide\MyMath\obj\Debug\netstandard2.0\MyMath.xml
+C:\Users\pc\.vscode\alu-csharp\csharp-tdd\1-divide\MyMath\obj\Debug\netstandard2.0\MyMath.pdb
