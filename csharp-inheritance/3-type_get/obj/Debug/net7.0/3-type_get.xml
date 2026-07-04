@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>3-type_get</name>
+    </assembly>
+    <members>
+        <member name="T:Obj">
+            <summary>
+            Contains methods to check object types.
+            </summary>
+        </member>
+        <member name="M:Obj.IsOfTypeInt(System.Object)">
+            <summary>
+            Determines if the given object is of type int.
+            </summary>
+            <param name="obj">The object to check.</param>
+            <returns>True if obj is an int, otherwise False.</returns>
+        </member>
+        <member name="M:Obj.IsInstanceOfArray(System.Object)">
+            <summary>
+            Determines if the given object is an instance of, or inherits from, Array.
+            </summary>
+            <param name="obj">The object to check.</param>
+            <returns>True if obj is an instance of or inherits from Array, otherwise False.</returns>
+        </member>
+        <member name="M:Obj.IsOnlyASubclass(System.Type,System.Type)">
+            <summary>
+            Determines if the given type is a subclass of a specified base type.
+            </summary>
+            <param name="derivedType">The derived type to check.</param>
+            <param name="baseType">The base type to compare against.</param>
+            <returns>True if derivedType is a subclass of baseType, otherwise False.</returns>
+        </member>
+        <member name="M:Obj.Print(System.Object)">
+            <summary>
+            Prints the names of the available properties and methods of an object.
+            </summary>
+            <param name="myObj">The object to inspect.</param>
+        </member>
+    </members>
+</doc>

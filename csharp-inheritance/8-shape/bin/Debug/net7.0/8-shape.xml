@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>8-shape</name>
+    </assembly>
+    <members>
+        <member name="T:Shape">
+            <summary>
+            Base class Shape
+            </summary>
+        </member>
+        <member name="M:Shape.Area">
+            <summary>
+            Virtual method Area() to be overridden
+            </summary>
+            <returns>Throws NotImplementedException</returns>
+        </member>
+        <member name="T:Rectangle">
+            <summary>
+            Rectangle class inherits from Shape
+            </summary>
+        </member>
+        <member name="P:Rectangle.Width">
+            <summary>
+            Gets or sets the width of the rectangle
+            </summary>
+        </member>
+        <member name="P:Rectangle.Height">
+            <summary>
+            Gets or sets the height of the rectangle
+            </summary>
+        </member>
+        <member name="M:Rectangle.Area">
+            <summary>
+            Overrides the Area method to calculate rectangle area
+            </summary>
+            <returns>Area of the rectangle</returns>
+        </member>
+        <member name="M:Rectangle.ToString">
+            <summary>
+            Overrides ToString() to return the rectangle representation
+            </summary>
+            <returns>String representation of Rectangle</returns>
+        </member>
+        <member name="T:Square">
+            <summary>
+            Square class inherits from Rectangle
+            </summary>
+        </member>
+        <member name="P:Square.Size">
+            <summary>
+            Gets or sets the size of the square
+            </summary>
+        </member>
+    </members>
+</doc>
