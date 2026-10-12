@@ -1,0 +1,12 @@
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\0-queue\obj\Debug\netcoreapp2.1\0-queue.csproj.AssemblyReference.cache
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\0-queue\obj\Debug\netcoreapp2.1\0-queue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\0-queue\obj\Debug\netcoreapp2.1\0-queue.AssemblyInfoInputs.cache
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\0-queue\obj\Debug\netcoreapp2.1\0-queue.AssemblyInfo.cs
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\0-queue\obj\Debug\netcoreapp2.1\0-queue.csproj.CoreCompileInputs.cache
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\0-queue\bin\Debug\netcoreapp2.1\0-queue.deps.json
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\0-queue\bin\Debug\netcoreapp2.1\0-queue.dll
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\0-queue\bin\Debug\netcoreapp2.1\0-queue.pdb
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\0-queue\bin\Debug\netcoreapp2.1\0-queue.xml
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\0-queue\obj\Debug\netcoreapp2.1\0-queue.dll
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\0-queue\obj\Debug\netcoreapp2.1\0-queue.xml
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\0-queue\obj\Debug\netcoreapp2.1\0-queue.pdb
