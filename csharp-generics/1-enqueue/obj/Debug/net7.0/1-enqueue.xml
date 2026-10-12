@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>1-enqueue</name>
+    </assembly>
+    <members>
+        <member name="T:Queue`1">
+            <summary>
+            Represents a generic queue.
+            </summary>
+        </member>
+        <member name="T:Queue`1.Node">
+            <summary>
+            Represents a value and its link to the next queue node.
+            </summary>
+        </member>
+        <member name="P:Queue`1.Node.value">
+            <summary>
+            Gets or sets the value stored in this node.
+            </summary>
+        </member>
+        <member name="P:Queue`1.Node.next">
+            <summary>
+            Gets or sets the next node in the queue.
+            </summary>
+        </member>
+        <member name="M:Queue`1.Node.#ctor(System.Object)">
+            <summary>
+            Initializes a new node with the specified value.
+            </summary>
+        </member>
+        <member name="P:Queue`1.head">
+            <summary>
+            Gets or sets the first node in the queue.
+            </summary>
+        </member>
+        <member name="P:Queue`1.tail">
+            <summary>
+            Gets or sets the last node in the queue.
+            </summary>
+        </member>
+        <member name="P:Queue`1.count">
+            <summary>
+            Gets or sets the number of nodes in the queue.
+            </summary>
+        </member>
+        <member name="M:Queue`1.CheckType">
+            <summary>
+            Gets the type used by this queue.
+            </summary>
+        </member>
+        <member name="M:Queue`1.Enqueue(`0)">
+            <summary>
+            Adds a value to the end of the queue.
+            </summary>
+        </member>
+        <member name="M:Queue`1.Count">
+            <summary>
+            Gets the number of nodes in the queue.
+            </summary>
+        </member>
+    </members>
+</doc>

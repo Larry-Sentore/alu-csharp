@@ -1,6 +1,4 @@
-C:\Users\pc\.vscode\alu-csharp\csharp-generics\1-enqueue\bin\Debug\net7.0\1-enqueue.exe
 C:\Users\pc\.vscode\alu-csharp\csharp-generics\1-enqueue\bin\Debug\net7.0\1-enqueue.deps.json
-C:\Users\pc\.vscode\alu-csharp\csharp-generics\1-enqueue\bin\Debug\net7.0\1-enqueue.runtimeconfig.json
 C:\Users\pc\.vscode\alu-csharp\csharp-generics\1-enqueue\bin\Debug\net7.0\1-enqueue.dll
 C:\Users\pc\.vscode\alu-csharp\csharp-generics\1-enqueue\bin\Debug\net7.0\1-enqueue.pdb
 C:\Users\pc\.vscode\alu-csharp\csharp-generics\1-enqueue\obj\Debug\net7.0\1-enqueue.GeneratedMSBuildEditorConfig.editorconfig
@@ -10,5 +8,6 @@ C:\Users\pc\.vscode\alu-csharp\csharp-generics\1-enqueue\obj\Debug\net7.0\1-enqu
 C:\Users\pc\.vscode\alu-csharp\csharp-generics\1-enqueue\obj\Debug\net7.0\1-enqueue.dll
 C:\Users\pc\.vscode\alu-csharp\csharp-generics\1-enqueue\obj\Debug\net7.0\refint\1-enqueue.dll
 C:\Users\pc\.vscode\alu-csharp\csharp-generics\1-enqueue\obj\Debug\net7.0\1-enqueue.pdb
-C:\Users\pc\.vscode\alu-csharp\csharp-generics\1-enqueue\obj\Debug\net7.0\1-enqueue.genruntimeconfig.cache
 C:\Users\pc\.vscode\alu-csharp\csharp-generics\1-enqueue\obj\Debug\net7.0\ref\1-enqueue.dll
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\1-enqueue\bin\Debug\net7.0\1-enqueue.xml
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\1-enqueue\obj\Debug\net7.0\1-enqueue.xml
