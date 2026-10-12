@@ -3,6 +3,7 @@
 /// <summary>
 /// Represents a generic queue.
 /// </summary>
+/// <typeparam name="T">The type of values stored in the queue.</typeparam>
 public class Queue<T>
 {
     /// <summary>
@@ -23,6 +24,7 @@ public class Queue<T>
         /// <summary>
         /// Initializes a new node with the specified value.
         /// </summary>
+        /// <param name="value">The value to store in the node.</param>
         public Node(object? value)
         {
             this.value = value;
@@ -47,6 +49,7 @@ public class Queue<T>
     /// <summary>
     /// Gets the type used by this queue.
     /// </summary>
+    /// <returns>The type parameter of this queue.</returns>
     public Type CheckType()
     {
         return typeof(T);
@@ -55,7 +58,8 @@ public class Queue<T>
     /// <summary>
     /// Adds a value to the end of the queue.
     /// </summary>
-    public void Enqueue(T value)
+    /// <param name="value">The value to add.</param>
+    public void Enqueue(T? value)
     {
         Node newNode = new Node(value);
 
@@ -75,7 +79,7 @@ public class Queue<T>
     /// <summary>
     /// Gets the number of nodes in the queue.
     /// </summary>
-
+    /// <returns>The number of nodes in the queue.</returns>
     public int Count()
     {
         return count;

@@ -8,6 +8,7 @@
             <summary>
             Represents a generic queue.
             </summary>
+            <typeparam name="T">The type of values stored in the queue.</typeparam>
         </member>
         <member name="T:Queue`1.Node">
             <summary>
@@ -28,6 +29,7 @@
             <summary>
             Initializes a new node with the specified value.
             </summary>
+            <param name="value">The value to store in the node.</param>
         </member>
         <member name="P:Queue`1.head">
             <summary>
@@ -48,16 +50,19 @@
             <summary>
             Gets the type used by this queue.
             </summary>
+            <returns>The type parameter of this queue.</returns>
         </member>
         <member name="M:Queue`1.Enqueue(`0)">
             <summary>
             Adds a value to the end of the queue.
             </summary>
+            <param name="value">The value to add.</param>
         </member>
         <member name="M:Queue`1.Count">
             <summary>
             Gets the number of nodes in the queue.
             </summary>
+            <returns>The number of nodes in the queue.</returns>
         </member>
     </members>
 </doc>
