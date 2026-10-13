@@ -109,7 +109,7 @@ public class Queue<T>
     {
         if (head == null)
         {
-            throw new InvalidOperationException("Queue is empty.");
+            return default;
         }
 
         return head.value;
