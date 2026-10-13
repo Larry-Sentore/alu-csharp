@@ -14,7 +14,7 @@ public class Queue<T>
         /// <summary>
         /// Gets or sets the value stored in this node.
         /// </summary>
-        public object? value { get; set; } = null;
+        public T? value { get; set; }
 
         /// <summary>
         /// Gets or sets the next node in the queue.
@@ -25,7 +25,7 @@ public class Queue<T>
         /// Initializes a new node with the specified value.
         /// </summary>
         /// <param name="value">The value to store in the node.</param>
-        public Node(object? value)
+        public Node(T? value)
         {
             this.value = value;
         }
@@ -76,13 +76,17 @@ public class Queue<T>
         count++;
     }
 
-    public void Dequeue()
+    /// <summary>
+    /// Removes the first value in the queue and returns it.
+    /// </summary>
+    public T? Dequeue()
     {
         if (head == null)
         {
             throw new InvalidOperationException("Queue is empty.");
         }
 
+        T? value = head.value;
         head = head.next;
         count--;
 
@@ -90,6 +94,8 @@ public class Queue<T>
         {
             tail = null;
         }
+
+        return value;
     }
 
     /// <summary>
@@ -99,5 +105,18 @@ public class Queue<T>
     public int Count()
     {
         return count;
+    }
+}
+
+public class Program
+{
+    public static void Main()
+    {
+        Queue<string> queue = new Queue<string>();
+        queue.Enqueue("H");
+        queue.Enqueue("I");
+
+        Console.WriteLine("Number of nodes in queue: " + queue.Count());
+        Console.WriteLine("Value of head node: " + queue.Dequeue());
     }
 }
