@@ -1,0 +1,14 @@
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\2-dequeue\bin\Debug\net7.0\2-dequeue.exe
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\2-dequeue\bin\Debug\net7.0\2-dequeue.deps.json
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\2-dequeue\bin\Debug\net7.0\2-dequeue.runtimeconfig.json
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\2-dequeue\bin\Debug\net7.0\2-dequeue.dll
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\2-dequeue\bin\Debug\net7.0\2-dequeue.pdb
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\2-dequeue\obj\Debug\net7.0\2-dequeue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\2-dequeue\obj\Debug\net7.0\2-dequeue.AssemblyInfoInputs.cache
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\2-dequeue\obj\Debug\net7.0\2-dequeue.AssemblyInfo.cs
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\2-dequeue\obj\Debug\net7.0\2-dequeue.csproj.CoreCompileInputs.cache
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\2-dequeue\obj\Debug\net7.0\2-dequeue.dll
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\2-dequeue\obj\Debug\net7.0\refint\2-dequeue.dll
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\2-dequeue\obj\Debug\net7.0\2-dequeue.pdb
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\2-dequeue\obj\Debug\net7.0\2-dequeue.genruntimeconfig.cache
+C:\Users\pc\.vscode\alu-csharp\csharp-generics\2-dequeue\obj\Debug\net7.0\ref\2-dequeue.dll
