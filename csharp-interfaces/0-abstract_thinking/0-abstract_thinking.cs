@@ -3,10 +3,10 @@ using System.Xml;
 public abstract class Base
 
 {
-    public XmlNode? Name { get; set; } = null;
+     public string name { get; set; } = string.Empty;
 
     public override string ToString()
     {
-        return $"{Name} is a {this.GetType().Name}";
+        return $"{name} is a {GetType().Name}";
     }
 }
