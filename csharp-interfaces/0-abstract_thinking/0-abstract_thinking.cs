@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Xml;
 public abstract class Base
 
 {
-    public required string Name { get; set; }
+    public XmlNode? Name { get; set; } = null;
 
     public override string ToString()
     {
