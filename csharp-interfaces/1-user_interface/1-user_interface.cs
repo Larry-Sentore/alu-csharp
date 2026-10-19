@@ -33,6 +33,9 @@ public class TestObject : Base, IInteractive, IBreakable, ICollectable
     public int durability { get; set; }
     public bool isCollected { get; set; }
 
+    public TestObject() : this(string.Empty, 0, false)
+    {
+    }
     public TestObject(string name, int durability, bool isCollected)
     {
         this.name = name;
