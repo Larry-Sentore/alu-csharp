@@ -1,0 +1,14 @@
+C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\1-user_interface\bin\Debug\net7.0\1-user_interface.exe
+C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\1-user_interface\bin\Debug\net7.0\1-user_interface.deps.json
+C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\1-user_interface\bin\Debug\net7.0\1-user_interface.runtimeconfig.json
+C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\1-user_interface\bin\Debug\net7.0\1-user_interface.dll
+C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\1-user_interface\bin\Debug\net7.0\1-user_interface.pdb
+C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\1-user_interface\obj\Debug\net7.0\1-user_interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\1-user_interface\obj\Debug\net7.0\1-user_interface.AssemblyInfoInputs.cache
+C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\1-user_interface\obj\Debug\net7.0\1-user_interface.AssemblyInfo.cs
+C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\1-user_interface\obj\Debug\net7.0\1-user_interface.csproj.CoreCompileInputs.cache
+C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\1-user_interface\obj\Debug\net7.0\1-user_interface.dll
+C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\1-user_interface\obj\Debug\net7.0\refint\1-user_interface.dll
+C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\1-user_interface\obj\Debug\net7.0\1-user_interface.pdb
+C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\1-user_interface\obj\Debug\net7.0\1-user_interface.genruntimeconfig.cache
+C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\1-user_interface\obj\Debug\net7.0\ref\1-user_interface.dll
