@@ -49,7 +49,7 @@ public class Player
 
     public void PrintHealth()
     {
-        Console.WriteLine($"{name} has {hp} / {maxHp} health");
+        Console.WriteLine($"{name} has {hp:G7} / {maxHp:G7} health");
     }
 
     public void TakeDamage(float damage)
@@ -59,7 +59,7 @@ public class Player
             damage = 0;
         }
 
-        Console.WriteLine($"{name} takes {damage} damage!");
+        Console.WriteLine($"{name} takes {damage:G7} damage!");
         ValidateHP(hp - damage);
     }
 
@@ -70,7 +70,7 @@ public class Player
             heal = 0;
         }
 
-        Console.WriteLine($"{name} heals {heal} HP!");
+        Console.WriteLine($"{name} heals {heal:G7} HP!");
         ValidateHP(hp + heal);
     }
 
