@@ -1,6 +1,4 @@
-C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\6-generic_iteration\bin\Debug\net7.0\6-generic_iteration.exe
 C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\6-generic_iteration\bin\Debug\net7.0\6-generic_iteration.deps.json
-C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\6-generic_iteration\bin\Debug\net7.0\6-generic_iteration.runtimeconfig.json
 C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\6-generic_iteration\bin\Debug\net7.0\6-generic_iteration.dll
 C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\6-generic_iteration\bin\Debug\net7.0\6-generic_iteration.pdb
 C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\6-generic_iteration\obj\Debug\net7.0\6-generic_iteration.GeneratedMSBuildEditorConfig.editorconfig
@@ -10,5 +8,4 @@ C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\6-generic_iteration\obj\Debug\n
 C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\6-generic_iteration\obj\Debug\net7.0\6-generic_iteration.dll
 C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\6-generic_iteration\obj\Debug\net7.0\refint\6-generic_iteration.dll
 C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\6-generic_iteration\obj\Debug\net7.0\6-generic_iteration.pdb
-C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\6-generic_iteration\obj\Debug\net7.0\6-generic_iteration.genruntimeconfig.cache
 C:\Users\pc\.vscode\alu-csharp\csharp-interfaces\6-generic_iteration\obj\Debug\net7.0\ref\6-generic_iteration.dll
