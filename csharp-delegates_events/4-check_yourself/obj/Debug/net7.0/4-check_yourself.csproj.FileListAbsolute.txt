@@ -1,0 +1,11 @@
+C:\Users\pc\.vscode\alu-csharp\csharp-delegates_events\4-check_yourself\bin\Debug\net7.0\4-check_yourself.deps.json
+C:\Users\pc\.vscode\alu-csharp\csharp-delegates_events\4-check_yourself\bin\Debug\net7.0\4-check_yourself.dll
+C:\Users\pc\.vscode\alu-csharp\csharp-delegates_events\4-check_yourself\bin\Debug\net7.0\4-check_yourself.pdb
+C:\Users\pc\.vscode\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net7.0\4-check_yourself.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\.vscode\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net7.0\4-check_yourself.AssemblyInfoInputs.cache
+C:\Users\pc\.vscode\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net7.0\4-check_yourself.AssemblyInfo.cs
+C:\Users\pc\.vscode\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net7.0\4-check_yourself.csproj.CoreCompileInputs.cache
+C:\Users\pc\.vscode\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net7.0\4-check_yourself.dll
+C:\Users\pc\.vscode\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net7.0\refint\4-check_yourself.dll
+C:\Users\pc\.vscode\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net7.0\4-check_yourself.pdb
+C:\Users\pc\.vscode\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net7.0\ref\4-check_yourself.dll
