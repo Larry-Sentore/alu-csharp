@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 public abstract class Base
 {
@@ -113,28 +112,6 @@ public class Key : Base, ICollectable
         else
         {
             Console.WriteLine($"You have already picked up the {name}.");
-        }
-    }
-}
-
-public class RoomObjects
-{
-    public static void IterateAction(List<Base> roomObjects, Type type)
-    {
-        foreach (Base roomObject in roomObjects)
-        {
-            if (type == typeof(IInteractive) && roomObject is IInteractive interactive)
-            {
-                interactive.Interact();
-            }
-            else if (type == typeof(IBreakable) && roomObject is IBreakable breakable)
-            {
-                breakable.Break();
-            }
-            else if (type == typeof(ICollectable) && roomObject is ICollectable collectable)
-            {
-                collectable.Collect();
-            }
         }
     }
 }
